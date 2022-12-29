@@ -1,0 +1,10 @@
+.Navbar1{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    color: white;
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    border-radius: 18px;
+}
