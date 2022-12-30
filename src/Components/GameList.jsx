@@ -57,15 +57,8 @@ let flag=true;
  gameData.push(e)
   count++
   localStorage.setItem("gameData",JSON.stringify(gameData))
-  
-  
- 
-  
- 
-  
-
-  
- 
+  localStorage.setItem("count",count)
+  alert("game added into cart")
  }
 
   return (

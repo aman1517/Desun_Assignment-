@@ -9,6 +9,8 @@ import GameList from '../Components/GameList';
 import Checkout from '../Components/Checkout';
 import AddDetails from '../Components/AddDetails';
 import PageNotFoud from '../Components/PageNotFoud';
+import Paymemnt from '../Components/Paymemnt';
+import Footer from '../Components/Footer';
 const MainRoute = () => {
   return (
     <div>
@@ -21,9 +23,9 @@ const MainRoute = () => {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/adddetails' element={<AddDetails/>}/>
+        <Route path="/payment" element={<Paymemnt/>}/>
         <Route path='*' element={<PageNotFoud/>}/>
     </Routes>
-   
       
     </div>
   );

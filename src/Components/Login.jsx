@@ -13,9 +13,10 @@ const Login = () => {
 
     const HandleFormSubmit = () => {
       if(credData.email===email && credData.password===password)
-      {
+      { let x="youcanbuy"
            setAuth(true);
            localStorage.setItem("cred", auth);
+           localStorage.setItem("check",x)
            alert("Login Successfully");
            navigate("/gameList");
       }else{
