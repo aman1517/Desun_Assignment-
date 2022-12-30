@@ -1,0 +1,28 @@
+.singupmain{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.singupmain>form>input{
+   width: 40%;
+   height: 40px;
+   margin-top: 20px;
+   
+}
+.singupmain>form>button{
+    width: 40%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+
+}
+.singupmain>form>button:hover{
+    background-color: green;
+    cursor: pointer;
+ }

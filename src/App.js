@@ -5,8 +5,10 @@ import MainRoute from './Mainroute/MainRoute';
 function App() {
   return (
     <div className="App">
-     <h1>Game Center</h1>
-     <MainRoute/>
+    <h1>Game Center</h1>
+    <MainRoute/>
+   
+     
     </div>
   );
 }

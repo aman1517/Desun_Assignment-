@@ -4,6 +4,7 @@ const AddDetails = () => {
   return (
     <div>
       <h2>AddDetails Page</h2>
+      <p>Hello</p>
     </div>
   );
 }
